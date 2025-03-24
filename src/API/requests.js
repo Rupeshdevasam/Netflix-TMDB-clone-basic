@@ -1,4 +1,4 @@
-const API_KEY = "6caf1f2144694e5eec934fdd89f0e4ec";
+const API_KEY = process.env.REACT_APP_SECRET_KEY;
 
 const requests = {
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
